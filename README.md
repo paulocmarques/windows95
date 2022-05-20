@@ -26,14 +26,14 @@ This is Windows 95, running in an [Electron](https://electronjs.org/) app. Yes, 
       <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-2.3.0-setup-x64.exe">
         💿 Installer
       </a> |
-      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-win32-ia32-2.3.0.zip">
+      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-win32-x64-2.3.0.zip">
         📦 Standalone Zip
       </a><br />
       <span>ARM64</span>
       <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-2.3.0-setup-arm64.exe">
         💿 Installer
       </a> |
-      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-win32-ia32-2.3.0.zip">
+      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-win32-arm64-2.3.0.zip">
         📦 Standalone Zip
       </a><br />
       <span>
@@ -88,7 +88,7 @@ This is Windows 95, running in an [Electron](https://electronjs.org/) app. Yes, 
         💿 deb
       </a><br />
       <span>ARMv7 (armhf)</span>
-      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-2.3.0-1.arm64.rpm">
+      <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95-2.3.0-1.armv7hl.rpm">
         💿 rpm
       </a> |
       <a href="https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95_2.3.0_armhf.deb">
@@ -115,7 +115,7 @@ You'll likely be better off with an actual virtualization app, but the short ans
 
 ## Credits
 
-99% of the work was done over at [v86](https://github.com/copy/v86/) by Copy.
+99% of the work was done over at [v86](https://github.com/copy/v86/) by Copy aka Fabian Hemmer and his contributors.
 
 ## Contributing
 
@@ -135,6 +135,8 @@ Unpack the `images` folder into the `src` folder, creating this layout:
 ```
 
 Once you've done so, run `npm install` and `npm start` to run your local build.
+
+If you want to tinker with the image or make a new one, check out the [QEMU docs](./docs/qemu.md).
 
 ## Other Questions
 
